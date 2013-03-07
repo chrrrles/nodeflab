@@ -98,6 +98,9 @@ gem "foreman"
 gem "git"
 gem 'rb-inotify', require: linux_only('rb-inotify')
 
+# Gitlab Public Projects
+gem "public_pages"
+
 group :assets do
   gem "sass-rails",   "~> 3.2.5"
   gem "coffee-rails", "~> 3.2.2"
