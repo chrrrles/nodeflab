@@ -96,6 +96,7 @@ gem 'settingslogic'
 # Misc
 gem "foreman"
 gem "git"
+gem 'rb-inotify', require: linux_only('rb-inotify')
 
 group :assets do
   gem "sass-rails",   "~> 3.2.5"
